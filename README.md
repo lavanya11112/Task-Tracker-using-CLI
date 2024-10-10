@@ -3,24 +3,39 @@ A simple command-line interface (CLI) application for managing tasks. This Task 
 
 Features:
 Add tasks: Create new tasks with a description and automatically set their status to "todo."
+
+
 Update tasks: Modify existing task descriptions or change their status (todo, in-progress, done).
+
+
 Delete tasks: Remove tasks from the list.
+
+
 List tasks: View all tasks or filter them by status (e.g., list only completed tasks).
+
+
 Persistent storage: Tasks are saved in a tasks.json file, allowing data to persist across sessions.
+
+
 Technologies Used:
 Node.js: Handles file I/O operations and asynchronous programming.
+
 Yargs: A powerful library for building command-line tools with argument parsing.
+
 JSON: Tasks are stored in a structured, human-readable format.
+
+
 Getting Started:
+
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/your-username/task-tracker-cli.git
 cd task-tracker-cli
+
 Install dependencies:
+
 bash
-Copy code
 npm install
+
 Run the CLI:
 bash
 Copy code
